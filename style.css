@@ -1,0 +1,44 @@
+body{
+    min-width: 500px;
+    justify-content: center;
+    text-align:center;
+    background-color: #e6c6c8
+}
+
+#mainContainer img{
+    height:100px;
+    width:80px;
+    margin:4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* to make images black initially*/
+    filter: brightness(0);
+}
+
+
+#mainContainer img:hover{
+    transform: scale(1.1);
+    
+}
+h1{
+    color: maroon
+}
+h4{
+    color: black;
+    font-style: italic;
+}
+#sound{
+    height:30px;
+}
+
+.win{
+    width:300px;
+    height:400px;
+    background-image: url('images/won.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
